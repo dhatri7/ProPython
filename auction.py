@@ -1,22 +1,10 @@
-logo = '''
-                         ___________
-                         \         /
-                          )_______(
-                          |"""""""|_.-._,.---------.,_.-._
-                          |       | | |               | | ''-.
-                          |       |_| |_             _| |_..-'
-                          |_______| '-' `'---------'` '-'
-                          )"""""""(
-                         /_________\\
-                       .-------------.
-                      /_______________\\
-'''
 import os
+from art import logo4
 
 def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-print(logo)
+print(logo4)
 print("Welcome to the secret auction program.")
 
 auction = {}
